@@ -9,8 +9,10 @@ Warning read this documentation!
 <h4>
 Language English:<br>
 
-Clipboard copy and paste a image this lib is simple for use day of day.
+Clipboard copy and paste a image this lib is simple for use day of day.<br>
+
 This lib came up because of a problem, to render clipboard with control(CTRL) + v.<br>
+
 Pressing CTRL + V will open the modal, bringing what is on your clipboard.
 
 <br>
@@ -25,7 +27,7 @@ heightImage="height"
 </h4>
 
 <h2>
-Documentação para uso.
+Documentação para uso.<br>
 Atenção leia a documentação!
 </h2>
 
