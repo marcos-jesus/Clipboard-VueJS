@@ -1,6 +1,6 @@
 # Clipboard VueJS
 
-<img src="../src/assets/clipboardlogo.jpeg" width="600" height="300">
+<img src="./src/assets/clipboardlogo.jpeg" width="600" height="300">
 
 ```
 Documentation for use. 
@@ -24,7 +24,7 @@ Essa lib surgiu para solucionar um problema, renderizar clipboard com control(CT
 Ao pressionar control(CTRL) + v é aberto um modal, e este modal trás o que está na sua área de transferência.
 ```
 
-<img src="../src/assets/clipboard.png">
+<img src="./src/assets/clipboard.png">
 
 ## Project setup
 ```
