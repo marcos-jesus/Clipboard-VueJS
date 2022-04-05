@@ -15,11 +15,13 @@ Pressing CTRL + V will open the modal, bringing what is on your clipboard.
 
 <br>
 <h4> Props </h4>
+
 ```
 nameModal="name for modal"
 widthImage="width"
 heightImage="height"
 ```
+
 </h4>
 
 <h2>
@@ -37,11 +39,13 @@ Essa lib surgiu para solucionar um problema, renderizar clipboard com control(CT
 Ao pressionar control(CTRL) + v é aberto um modal, e este modal trás o que está na sua área de transferência.
 
 <h4> Props </h4>
+
 ```
 nameModal="nome para o modal."
 widthImage="tamanho"
 heightImage="altura"
 ```
+
 </h4>
 
 Example for use component.<br>
