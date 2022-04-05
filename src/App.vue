@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Clipboard name="Clipboard" height="300" width="500" />
+    <Clipboard nameModal="Clipboard" heightImage="190" widthImage="300" />
   </div>
 </template>
 

@@ -1,10 +1,15 @@
 <template>
-	<modal :name="nameModal" :height="heightModal" :width="widthModal">
-		<h4> Paste image clipboard</h4>
-		<h5>Press CTRL + V</h5>
-		
-		<img :src="blobImage">
+	<modal :name="nameModal">
+		<div class="times" @click="closeModal">
+			x
+		</div>
+		<div style="padding-top:40px;">
+			<img :src="blobImage" :width="widthImage" :height="heightImage">
+		</div>
 	
+		<div class="send">
+			<img src="https://img.icons8.com/external-kmg-design-flat-kmg-design/32/000000/external-send-user-interface-kmg-design-flat-kmg-design.png"/>
+		</div>
 	</modal>
 </template>
 
@@ -14,14 +19,11 @@ import modal from 'vue-js-modal'
 Vue.use(modal)
 export default {
 	props: {
-		height: String,
-		width: String,
-		name: String
+		nameModal: String,
+		widthImage: String,
+		heightImage: String,
 	},
 	data:() => ({
-		nameModal: "Clipboard",
-		heightModal: "380",
-		widthModal: "600",
 		blobImage: {},
 		keyControl: 0,
 		keyV: 0,
@@ -45,9 +47,9 @@ export default {
 
 			if(sum === 2) {
 				this.$modal.show(this.nameModal);
-				const data = await navigator.clipboard.read()
+				const data = await navigator.clipboard.read();
 				const clipboardContent = data[0];
-				const types = clipboardContent.types[0]
+				const types = clipboardContent.types[0];
 				
 				if(types === 'image/png') {
 					const blob = await clipboardContent.getType('image/png');
@@ -60,18 +62,36 @@ export default {
 				this.keyV = 0;
 			}
 
-		}
+		},
 
+		closeModal() {
+			this.$modal.hide(this.nameModal);
+		}
 
 	},
 
 	mounted() {
-		document.addEventListener('keyup', this.getKeyPress)
+		document.addEventListener('keyup', this.getKeyPress);
 	}
 
 }
 </script>
 
-<style>
+<style scoped>
+	.times {
+		display:flex;
+		justify-content:flex-end;
+		padding-right:10px;
+		padding-top:2px;
+		cursor:pointer;
+		font-size:24px;
+		color:red;
+	}
 
+	.send {
+		display:flex;
+		justify-content:flex-end;
+		padding-right:10px;
+		cursor:pointer;
+	}
 </style>
