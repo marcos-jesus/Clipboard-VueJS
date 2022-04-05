@@ -1,18 +1,17 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Clipboard name="Clipboard" height="300" width="500" />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import Clipboard from './components/Clipboard.vue'
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    Clipboard
+  },
+  
 }
 </script>
 
