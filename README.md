@@ -36,7 +36,7 @@ Language Português-BR:
 
 Copie e cole a imagem da área de transferência, esta lib é simples para uso no dia a dia.<br>
 
-Essa lib surgiu para solucionar um problema, renderizar clipboard com control(CTRL) + v
+Essa lib surgiu para solucionar um problema que encontrei no meu dia a dia na Evence Telecom compania onde tive que fazer uma feature que necessitava dessa funcionalidade, renderizar clipboard com control(CTRL) + v
 
 Ao pressionar control(CTRL) + v é aberto um modal, e este modal trás o que está na sua área de transferência.
 
