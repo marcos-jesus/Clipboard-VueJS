@@ -4,6 +4,7 @@
   "private": false,
   "main": "main.js",
   "keywords": ["brasil", "vuejs clipboard", "vuejs", "javascript clipboard", "clipboard vue", "ctrl v vue", "ctrl c vue" ],
+  "description": "Lib copy to clipboard VueJS",
   "author": "Marcos Jesus",
   "scripts": {
     "serve": "vue-cli-service serve",
