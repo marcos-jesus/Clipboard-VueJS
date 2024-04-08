@@ -1,7 +1,10 @@
 {
   "name": "clipboard-vuejs",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": false,
+  "main": "main.js",
+  "keywords": ["brasil", "vuejs clipboard", "vuejs", "javascript clipboard", "clipboard vue", "ctrl v vue", "ctrl c vue" ],
+  "author": "Marcos Jesus",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",

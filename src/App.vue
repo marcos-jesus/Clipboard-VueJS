@@ -8,7 +8,7 @@
 import Clipboard from './components/Clipboard.vue'
 export default {
   name: 'App',
-  components: {
+  components: { 
     Clipboard
   },
   

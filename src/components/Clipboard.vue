@@ -50,11 +50,11 @@ export default {
 				const data = await navigator.clipboard.read();
 				const clipboardContent = data[0];
 				const types = clipboardContent.types[0];
+				console.log('type', types);
 				
-				if(types === 'image/png') {
+				if(types === 'image/png' || types === 'image/jpg' || types === 'image/jpeg' || types === 'text/html') {
 					const blob = await clipboardContent.getType('image/png');
 					this.blobImage = window.URL.createObjectURL(blob);
-
 				}
 
 				sum = 0;
