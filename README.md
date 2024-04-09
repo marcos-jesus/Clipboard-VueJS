@@ -1,6 +1,6 @@
 # Clipboard VueJS
 
-<img src="./src/assets/clipboardlogo.jpeg" width="600" height="300" align-center>
+<img src="./public/assets/clipboardlogo.jpeg" width="600" height="300" align-center>
 
 <h2>
 Documentation for use. <br>
@@ -53,13 +53,13 @@ heightImage="altura"
 Example for use component.<br>
 Exemplo para uso do componente.
 
-<img src="./src/assets/example.png">
+<img src="./public/assets/example.png">
 
 
 Running component<br>
 Componente rodando.
 
-<img src="./src/assets/clipboard.png">
+<img src="./public/assets/clipboard.png">
 
 ## Project setup
 ```
